@@ -7,22 +7,22 @@ const dmsans = DM_Sans({});
 function Footer() {
   return (
     <div
-      className={`h-225 bg-[rgb(30,42,46)] flex flex-col relative ${dmsans.className}`}
+      className={`md:h-225 max-w-screen bg-[rgb(30,42,46)] flex flex-col relative ${dmsans.className}`}
     >
       <div className="absolute bottom-0">
         <Image src={"/Gradient.svg"} height={700} width={680} alt="gradient w-auto h-auto"/>
       </div>
       <div className="flex items-center flex-col mt-12">
-        <div className="font-bold text-white text-xl w-6xl flex justify-evenly ">
+        <div className="font-bold text-white text-xl md:w-6xl w-full flex justify-evenly ">
           <button>Home</button>
           <button>About</button>
           <button>Contact</button>
         </div>
 
-        <div className="w-7xl mt-12 bg-linear-to-r mb-12 from-transparent via-white to-transparent h-px"></div>
+        <div className="md:w-7xl mt-12 bg-linear-to-r mb-12 from-transparent via-white to-transparent h-px"></div>
       </div>
-      <div className="px-20 flex justify-between">
-        <div className="w-2/5 flex-col text-white">
+      <div className="px-20 flex flex-col md:flex-row justify-between">
+        <div className="md:w-2/5 flex-col text-white">
           <div>
             <Image
               src="/Logo.svg"
@@ -72,7 +72,7 @@ function Footer() {
             />
           </div>
         </div>
-        <div className="w-1/5 flex-col space-y-4">
+        <div className="md:w-1/5 mt-20 md:mt-0 flex-col space-y-4">
           <h1 className="text-white font-bold text-xl">Contact Us</h1>
           <div className="font-semibold text-lg text-white flex gap-2 items-center">
             <Mail /> hr@anthillnetworks.com
@@ -81,10 +81,10 @@ function Footer() {
             <Phone /> +91 93630 88428
           </div>
         </div>
-        <div className="w-2/5 flex-col space-y-12">
+        <div className="md:w-2/5 mt-20 md:mt-0 mb-12 md:mb-0 flex-col space-y-12">
           <div>
             <div className="flex gap-4 justify-end">
-              <h1 className="font-clash  text-white text-4xl font-semibold">
+              <h1 className="font-clash  text-white text-2xl md:text-4xl font-semibold">
                 United kingdom
               </h1>
               <button className="text-white  p-2 rounded-full border border-white">
@@ -97,7 +97,7 @@ function Footer() {
           </div>
           <div>
             <div className="flex gap-4 justify-end">
-              <h1 className="font-clash  text-white text-4xl font-semibold">
+              <h1 className="font-clash  text-white text-2xl md:text-4xl font-semibold">
                 Canada
               </h1>
               <button className="text-white  p-2 rounded-full border border-white">
@@ -110,7 +110,7 @@ function Footer() {
           </div>
           <div>
             <div className="flex gap-4 justify-end">
-              <h1 className="font-clash  text-white text-4xl font-semibold">
+              <h1 className="font-clash  text-white text-2xl md:text-4xl font-semibold">
                 UAE
               </h1>
               <button className="text-white  p-2 rounded-full border border-white">
@@ -123,7 +123,7 @@ function Footer() {
           </div>
           <div>
             <div className="flex gap-4 justify-end">
-              <h1 className="font-clash  text-white text-4xl font-semibold">
+              <h1 className="font-clash  text-white text-2xl md:text-4xl font-semibold">
                 India
               </h1>
               <button className="text-white  p-2 rounded-full border border-white">

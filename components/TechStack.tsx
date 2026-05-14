@@ -2,17 +2,17 @@ import Image from "next/image";
 
 function TechStack() {
   return (
-    <div className="relative aspect-1440/760">
+    <div className="relative max-w-screen md:aspect-1440/760">
       <div className="w-full flex flex-col items-center">
         <h1 className="font-clash text-5xl font-semibold mt-12">
           Technology Stack
         </h1>
-        <p className="font-['Arial'] text-[#0000008A] mt-4 max-w-1/4 text-center text-xl">
+        <p className="font-['Arial'] text-[#0000008A] mt-4 md:max-w-1/4 text-center text-xl">
           Modern Tools, Scalable Results, We use modern, scalable technologies
           to build high-performance digital products.
         </p>
       </div>
-      <div className="flex px-20 mt-16 justify-between">
+      <div className="flex md:px-20 mt-16 justify-between">
         <div className="flex p-4 flex-col gap-4 border border-[#DCDCDC] rounded-xl">
           <h1 className="font-clash font-semibold text-3xl">Frontent</h1>
           <div>
@@ -38,7 +38,7 @@ function TechStack() {
           </div>
         </div>
       </div>
-      <div className="flex px-20 mt-16 justify-between">
+      <div className="flex md:px-20 mt-16 justify-between">
         <div className="flex p-4 flex-col gap-4 border border-[#DCDCDC] rounded-xl">
           <h1 className="font-clash font-semibold text-3xl">Backend</h1>
           <div>

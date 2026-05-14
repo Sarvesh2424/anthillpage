@@ -5,9 +5,9 @@ const inter = Inter({});
 
 function HowItStarted() {
   return (
-    <div className="h-506.5 relative bg-[#1E2A2E] p-16">
+    <div className="h-506.5 max-w-screen relative bg-[#1E2A2E] p-16">
       <div>
-        <h1 className="font-clash font-semibold text-5xl text-white mt-16">
+        <h1 className="font-clash font-semibold text-4xl md:text-5xl text-white mt-16">
           How It All Started
         </h1>
         <p className="font-['Arial'] text-white mt-6 text-xl">

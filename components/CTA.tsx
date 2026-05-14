@@ -6,19 +6,19 @@ const dmsans = DM_Sans({});
 
 function CTA() {
   return (
-    <div className="h-186 bg-[#1E2A2E] flex flex-col items-center justify-center">
+    <div className="h-186 max-w-screen bg-[#1E2A2E] flex flex-col items-center justify-center">
       <div className="flex justify-evenly w-full font-clash text-white">
         <div className="flex flex-col items-center">
           <h1 className="font-bold text-6xl">5+</h1>
-          <p className="font-medium text-2xl mt-2">countries served</p>
+          <p className="font-medium text-2xl text-center mt-2">countries served</p>
         </div>
         <div className="flex flex-col items-center">
           <h1 className="font-bold text-6xl">5.0</h1>
-          <p className="font-medium text-2xl mt-2">Google Rating</p>
+          <p className="font-medium text-2xl mt-2 text-center">Google Rating</p>
         </div>
         <div className="flex flex-col items-center">
           <h1 className="font-bold text-6xl">50+</h1>
-          <p className="font-medium text-2xl mt-2">Project Delivered</p>
+          <p className="font-medium text-2xl mt-2 text-center">Project Delivered</p>
         </div>
       </div>
       <div className="mt-36 relative">
@@ -29,8 +29,8 @@ function CTA() {
           alt="cta"
           className="w-auto h-auto"
         />
-        <div className="flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full gap-12 justify-between p-12">
-          <h1 className="text-5xl text-white font-clash font-medium">
+        <div className="flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full md:gap-12 justify-between px-3 md:p-12">
+          <h1 className=" text-3xl md:text-5xl text-white font-clash font-medium">
             Ready to turn your vision into Reality
           </h1>
           <button
@@ -52,12 +52,10 @@ function CTA() {
               <stop offset="100%" stopColor="#2BC2EF" />
             </linearGradient>
           </svg>
-
-          {/* Apply gradient ID to icon stroke */}
           <MoveUpRight className="stroke-[url(#icon-gradient)] h-10 w-10" />
         </button>
       </div>
-      <div className="w-7xl"></div>
+      <div className="md:w-7xl"></div>
     </div>
   );
 }

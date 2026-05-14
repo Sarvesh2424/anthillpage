@@ -32,16 +32,16 @@ const outfit = Outfit({});
 
 function OurTeam1() {
   return (
-    <div className="aspect-1440/800">
-      <div className="w-full flex flex-col items-center mt-16">
+    <div className="h-auto md:aspect-1440/800 max-w-screen    ">
+      <div className="w-full  flex flex-col items-center mt-16">
         <h1 className="font-clash text-5xl font-semibold mt-12">Our Team</h1>
-        <p className="font-['Arial'] text-[#0000008A] mt-4 max-w-1/3 text-center text-xl">
+        <p className="font-['Arial'] text-[#0000008A] mt-4 md:max-w-1/3 text-center text-xl">
           Our team consists of designers, developers, engineers, and product
           specialists who bring deep technical expertise and problem-solving
           ability.
         </p>
         <div
-          className={`${outfit.className} grid grid-cols-3 w-7xl aspect-1440/500 items-stretch gap-12 mt-24`}
+          className={`${outfit.className} max-w-screen p-4 md:p-0 grid-cols-1 grid md:grid-cols-3 w-7xl md:aspect-1440/500 items-stretch gap-12 mt-24`}
         >
           {team.map((member, index) => (
             <div
