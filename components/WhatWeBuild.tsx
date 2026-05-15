@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function WhatWeBuild() {
   return (
-    <div className="md:aspect-1440/2400 max-w-screen relative">
+    <div className="md:h-auto max-w-screen relative">
       <div className="mt-20 p-16">
         <h1 className="font-clash text-5xl font-semibold">What We Build</h1>
         <p className="font-['Arial'] font-normal text-xl text-[#0000008A] mt-8 md:max-w-1/3">
@@ -61,7 +61,7 @@ function WhatWeBuild() {
                 </p>
               </div>
             </div>
-            <div className="mt-36 flex w-full items-center justify-end">
+            <div className="mt-36 mb-16 flex w-full items-center justify-end">
               <div>
                 <Image
                   src={"/BUILD4.svg"}

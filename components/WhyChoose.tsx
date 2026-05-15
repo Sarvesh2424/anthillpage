@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function WhyChoose() {
   return (
-    <div className="md:aspect-1400/1240 max-w-screen p-6 flex items-stretch">
+    <div className="md:h-auto max-w-screen p-6 flex items-stretch">
       <div className="bg-[#1E2A2E] relative w-full rounded-4xl flex flex-col items-center">
         <div className="bg-[url('/antbg.jpg')] absolute inset-0 opacity-5 rounded-4xl w-full bg-cover bg-no-repeat bg-center flex flex-col items-center"></div>
         <h1 className="font-clash font-semibold text-5xl mt-30 text-white">

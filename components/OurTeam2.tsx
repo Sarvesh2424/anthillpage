@@ -5,7 +5,7 @@ const outfit = Outfit({});
 
 function OurTeam2() {
   return (
-    <div className="h-auto md:aspect-1440/626 max-w-screen">
+    <div className="h-auto md:mt-16 md:aspect-1440/626 max-w-screen">
       <div className="w-full flex flex-col items-center">
         <h1 className="font-clash text-5xl font-semibold mt-16 md:mt-0">Our Team</h1>
         <p className="font-['Arial'] text-[#0000008A] mt-4 md:max-w-1/3 text-center text-xl">

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function TechStack() {
   return (
-    <div className="relative max-w-screen md:aspect-1440/760">
+    <div className="relative max-w-screen md:mt-20 md:aspect-1440/760">
       <div className="w-full flex flex-col items-center">
         <h1 className="font-clash text-5xl font-semibold mt-12">
           Technology Stack
