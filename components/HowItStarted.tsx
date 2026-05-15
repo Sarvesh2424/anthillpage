@@ -74,9 +74,9 @@ function HowItStarted() {
             </p>
           </div>
         </div>
-        <div className="relative w-1/3 md:w-1/2 flex flex-col items-center gap-1">
+        <div className="relative w-3/4 md:w-1/2 flex flex-col items-center gap-1">
           <div className="bg-[#FFFFFF33] w-11 h-11 rounded-full border border-[#D9D9D9]"></div>
-          <div className="absolute flex md:w-2/3  flex-col -left-15 md:right-1/4 -translate-x-1/2">
+          <div className="absolute flex md:w-2/3  flex-col  right-1/4 -translate-x-1/2">
             <h1 className="font-clash text-white text-3xl text-end font-semibold">
               The Bridge
             </h1>
