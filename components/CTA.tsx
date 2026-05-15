@@ -39,7 +39,7 @@ function CTA() {
             Get a Free Consultation
           </button>
         </div>
-        <button className="border absolute rounded-4xl flex items-center justify-center py-4 -top-8 w-1/6 left-1/8 hover:scale-110  transition-all hover:cursor-pointer border-[#F3F4F68A]">
+        <button className="border absolute rounded-4xl flex items-center justify-center py-1 md:py-4 -top-8 w-1/6 left-1/8 hover:scale-110  transition-all hover:cursor-pointer border-[#F3F4F68A]">
           <svg className="w-0 h-0 absolute">
             <linearGradient
               id="icon-gradient"

@@ -64,13 +64,13 @@ function TechStack() {
           </div>
         </div>
       </div>
-      <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
+      <div className="absolute -z-10 top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
         <Image
           src={"/Laptop.svg"}
           alt="laptop"
           height={357}
           width={472}
-          className="w-auto h-auto"
+          className="w-auto md:opacity-100 opacity-95 md:blur-none blur-xs h-auto"
         />
       </div>
     </div>

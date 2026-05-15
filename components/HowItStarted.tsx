@@ -15,10 +15,10 @@ function HowItStarted() {
         </p>
       </div>
       <div className="flex flex-col gap-1 items-center justify-center mt-12">
-        <div className="relative w-1/2 flex flex-col items-center gap-1">
+        <div className="relative md:w-1/2 flex flex-col items-center gap-1">
           <div className="bg-[#FFFFFF33] w-11 h-11 rounded-full border border-[#D9D9D9]"></div>
           <div className="h-86 bg-linear-to-r w-2 from-[#712FFF] via-[#4648FF] to-[#6CEFEF] rounded-full"></div>
-          <div className="absolute flex w-2/3 flex-col left-1/4 translate-x-1/2   ">
+          <div className="absolute flex md:w-2/3 flex-col -right-16 md:left-1/4 translate-x-1/2   ">
             <h1 className="font-clash text-white text-3xl font-semibold">
               Our Mission
             </h1>
@@ -28,10 +28,10 @@ function HowItStarted() {
             </p>
           </div>
         </div>
-        <div className="relative w-1/2 flex flex-col items-center gap-1">
+        <div className="relative  md:w-1/2 flex flex-col items-center gap-1">
           <div className="bg-[#FFFFFF33] w-11 h-11 rounded-full border border-[#D9D9D9]"></div>
           <div className="h-86 bg-linear-to-r w-2 from-[#712FFF] via-[#4648FF] to-[#6CEFEF] rounded-full"></div>
-          <div className="absolute w-2/3 flex flex-col -top-26 right-1/4 -translate-x-1/2">
+          <div className="absolute md:w-2/3 flex flex-col -top-26 -right-5 md:right-1/4 -translate-x-1/2">
             <div className="flex flex-col gap-4 items-end">
                <Image
                 src={"/ANT1.svg"}
@@ -50,10 +50,10 @@ function HowItStarted() {
             </p>
           </div>
         </div>
-        <div className="relative w-1/2 flex flex-col items-center gap-1">
+        <div className="relative md:w-1/2 flex flex-col items-center gap-1">
           <div className="bg-[#FFFFFF33] w-11 h-11 rounded-full border border-[#D9D9D9]"></div>
           <div className="h-86 bg-linear-to-r w-2 from-[#712FFF] via-[#4648FF] to-[#6CEFEF] rounded-full"></div>
-          <div className="absolute w-2/3 flex flex-col -top-20 left-1/4 translate-x-1/2">
+          <div className="absolute md:w-2/3 flex flex-col -top-20 -right-15 md:left-1/4 translate-x-1/2">
             <div className="flex items-center gap-4">
               <h1 className="font-clash text-white text-3xl font-semibold">
                 The Gap
@@ -74,9 +74,9 @@ function HowItStarted() {
             </p>
           </div>
         </div>
-        <div className="relative w-1/2 flex flex-col items-center gap-1">
+        <div className="relative w-1/3 md:w-1/2 flex flex-col items-center gap-1">
           <div className="bg-[#FFFFFF33] w-11 h-11 rounded-full border border-[#D9D9D9]"></div>
-          <div className="absolute flex w-2/3  flex-col right-1/4 -translate-x-1/2">
+          <div className="absolute flex md:w-2/3  flex-col -left-15 md:right-1/4 -translate-x-1/2">
             <h1 className="font-clash text-white text-3xl text-end font-semibold">
               The Bridge
             </h1>

@@ -10,7 +10,17 @@ function Footer() {
       className={`md:h-225 max-w-screen bg-[rgb(30,42,46)] flex flex-col relative ${dmsans.className}`}
     >
       <div className="absolute bottom-0">
-        <Image src={"/Gradient.svg"} height={700} width={680} alt="gradient w-auto h-auto"/>
+        <Image
+          src={"/Gradient.svg"}
+          height={700}
+          width={680}
+          alt="gradient w-auto h-auto"
+        />
+      </div>
+      <div className="font-clash absolute bottom-1 md:bottom-5 left-1/2 -translate-x-1/2 text-white flex md:gap-12 gap-2 md:w-auto w-full justify-between px-2 ">
+        <p>Terms of Service</p>
+        <p>@Copyright2024</p>
+        <p>Privacy Policy</p>
       </div>
       <div className="flex items-center flex-col mt-12">
         <div className="font-bold text-white text-xl md:w-6xl w-full flex justify-evenly ">
