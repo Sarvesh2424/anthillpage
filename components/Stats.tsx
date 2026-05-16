@@ -39,7 +39,7 @@ function Stats() {
               width={512}
               height={566}
               alt="world wide"
-              className="w-auto h-full"
+              className="w-auto flex object-cover rounded-[60]  h-full"
             />
           </div>
         </div>

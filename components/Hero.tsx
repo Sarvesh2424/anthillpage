@@ -55,7 +55,7 @@ function Hero() {
           />
           {open ? (
             <button
-            className="text-white"
+              className="text-white"
               onClick={(e) => {
                 e.preventDefault();
                 setIsOpen((p) => !p);
@@ -65,7 +65,7 @@ function Hero() {
             </button>
           ) : (
             <button
-            className="text-white"
+              className="text-white"
               onClick={(e) => {
                 e.preventDefault();
                 setIsOpen((p) => !p);
@@ -102,7 +102,7 @@ function Hero() {
         </h1>
         <h1 className="md:text-6xl text-3xl text-white font-clash font-semibold mt-4">
           That Businesses{" "}
-          <span className="inline-block text-[#6CEFEF]">Trust</span>
+          <span className="inline-block text-cyan-500">Trust</span>
         </h1>
         <p
           className={`${dmsans.className} text-white mt-12 text-lg w-2/3 md:w-1/3 text-center`}
@@ -118,11 +118,12 @@ function Hero() {
       </div>
       <div className="absolute bottom-0 right-0 pointer-events-none">
         <Image
-          src="/Ants.svg"
+          src="/Ants (1).svg"
           width={1440}
           height={100}
-          className="w-auto h-auto"
+          className="w-screen h-auto"
           alt="ants"
+          
           loading="eager"
         />
       </div>

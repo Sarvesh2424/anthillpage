@@ -2,14 +2,14 @@ import Image from "next/image";
 
 function WhatWeBuild() {
   return (
-    <div className="md:h-auto max-w-screen relative">
+    <div className="md:h-max max-w-screen relative">
       <div className="mt-20 p-16">
         <h1 className="font-clash text-5xl font-semibold">What We Build</h1>
-        <p className="font-['Arial'] font-normal text-xl text-[#0000008A] mt-8 md:max-w-1/3">
+        <p className="font-['Arial'] font-normal mb-50 text-xl text-[#0000008A] mt-8 md:max-w-1/3">
           End-to-end digital products. We design and develop end-to-end digital
           products that combine usability, performance, and scalability.
         </p>
-        <div className="flex mt-12 md:mb-0 mb-120 md:mt-50 flex-col aspect-1440/2100 justify-between">
+        <div className="flex mt-12 md:mb-0 md:mt-0 flex-col aspect-1440/2350 justify-between">
           {" "}
           <div>
             <div className="md:flex w-full items-center justify-evenly">
@@ -61,7 +61,7 @@ function WhatWeBuild() {
                 </p>
               </div>
             </div>
-            <div className="mt-36 mb-16 flex w-full items-center justify-end">
+            <div className="mt-36 mb-16 flex w-full ml-15 items-center justify-end">
               <div>
                 <Image
                   src={"/BUILD4.svg"}
@@ -149,7 +149,7 @@ function WhatWeBuild() {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0">
+      <div className="absolute bottom-0 left-0 right-0 top-1/2 -translate-y-1/2">
         <Image
           src="/Union.svg"
           height={1837}
