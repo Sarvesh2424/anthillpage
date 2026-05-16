@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function WhyChoose() {
   return (
-    <div className="md:h-auto max-w-screen p-6 flex items-stretch">
+    <div className="md:h-auto max-w-screen p-6  flex items-stretch">
       <div className="bg-[#1E2A2E] relative w-full rounded-4xl flex flex-col items-center">
         <div className="bg-[url('/antbg.jpg')] absolute inset-0 opacity-5 rounded-4xl w-full bg-cover bg-no-repeat bg-center flex flex-col items-center"></div>
         <h1 className="font-clash font-semibold text-5xl mt-30 text-white">
@@ -11,7 +11,7 @@ function WhyChoose() {
         <p className="font-['Arial'] text-white text-xl mt-4">
           Results that Speak
         </p>
-        <div className="flex items-start mt-20 md:-space-x-36">
+        <div className="flex items-start mt-20 mb-12 md:-space-x-36">
           <div className="flex flex-col -space-y-2 p-2 md:p-0">
             <div className="relative [clip-path:polygon(25%_0%,75%_0%,100%_50%,75%_100%,25%_100%,0%_50%)] ">
               <Image
@@ -115,7 +115,7 @@ function WhyChoose() {
                 alt="why4"
                 height={551}
                 width={522}
-                className="w-auto h-auto"
+                className="w-auto  h-auto"
               />
               <div className="absolute left-1/2 -translate-x-1/2 bottom-10 ">
                 <h2 className="font-clash font-semibold text-white text-2xl">

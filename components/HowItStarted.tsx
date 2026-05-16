@@ -67,7 +67,7 @@ function HowItStarted() {
               />
             </div>
 
-            <p className={`${inter.className} text-white -mt-2`}>
+            <p className={`${inter.className} text-white -mt-8`}>
               We saw a gap between great ideas and the technical capability
               required to execute them. Many founders struggled to find reliable
               partners who understood both technology and business.

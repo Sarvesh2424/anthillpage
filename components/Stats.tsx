@@ -33,14 +33,18 @@ function Stats() {
             </div>
           </div>
 
-          <div >
+          <div className="relative w-full">
             <Image
-              src={"/WorldWide.svg"}
+              src={"/WorldWide.png"}
               width={512}
               height={566}
               alt="world wide"
               className="w-auto flex object-cover rounded-[60]  h-full"
             />
+            <div className="font-clash  absolute bottom-1/4 w-full px-8 translate-y-1/2  text-7xl text-white font-bold">World<br/>wide
+            <div className="w-full bg-[#D9D9D9] h-px "></div>
+            <p className="text-white text-3xl mt-4 font-clash font-medium">Global Client Reach</p>
+            </div>
           </div>
         </div>
       </div>
